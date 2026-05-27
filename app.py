@@ -34,15 +34,14 @@ PROVIDERS = {
     },
     "硅基流动 (SiliconFlow)": {
         "base_url": "https://api.siliconflow.cn/v1",
-        "models": ["deepseek-ai/DeepSeek-V3", "Qwen/Qwen2.5-72B-Instruct", "THUDM/glm-4-9b-chat"],
-        "default_model": "deepseek-ai/DeepSeek-V3",
+        "models": [
+            "XiaomiMiMo/MiMo-7B-RL",
+            "deepseek-ai/DeepSeek-V3",
+            "Qwen/Qwen2.5-72B-Instruct",
+            "THUDM/glm-4-9b-chat",
+        ],
+        "default_model": "XiaomiMiMo/MiMo-7B-RL",
         "url": "siliconflow.cn",
-    },
-    "小米 MiLM": {
-        "base_url": "https://api.xiaomi.com/v1",
-        "models": ["milm-chat"],
-        "default_model": "milm-chat",
-        "url": "dev.mi.com",
     },
     "自定义 (OpenAI兼容)": {
         "base_url": "",
